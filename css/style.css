@@ -1,0 +1,85 @@
+:root{
+    --logo-color: #000;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --added-text: #757575;
+    --main-background: #FFF;
+    --team-background: #F5F4FA;
+    --footer-background: #2F303A;
+}
+
+
+
+h2{
+    color: var(--title-color)
+
+}
+
+
+h1{
+    color: var(--main-background)
+}
+
+
+p{
+    color: var(--added-text);
+}
+
+
+h3{
+    color: var(--title-color);
+}
+
+
+a[href="./index.html"]{
+    color: var(--accent-color);
+}
+
+
+[type="button"]{
+    color: var(--main-background);
+    background-color: var(--accent-color);
+}
+
+
+[href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265802,30.5280861,15z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu"]{
+    color: var(--main-background);
+}
+
+header>ul>li>a[href="mailto:info@devstudio.com"]{
+    color: var(--accent-color);
+}
+
+
+footer>address>ul{
+    color: var(--main-background);
+}
+
+
+footer{
+    background-color: #2F303A;
+}
+
+
+header{
+    background-color: #FFF;
+}
+
+
+#hero{
+    background-color: #2F303A;
+}
+
+
+#advantages{
+    background-color: #FFF;
+}
+
+#work{
+    background-color: #FFF;
+}
+
+
+#team{
+    background-color: #F5F4FA;
+}
