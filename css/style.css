@@ -88,3 +88,7 @@ header{
 button{
     color: var(--title-color);
 }
+
+address>ul>li>a{
+    color: var(--main-background);
+}
