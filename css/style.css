@@ -66,20 +66,20 @@ header{
 }
 
 
-#hero{
+.hero{
     background-color: #2F303A;
 }
 
 
-#advantages{
+.advantages{
     background-color: #FFF;
 }
 
-#work{
+.work{
     background-color: #FFF;
 }
 
 
-#team{
+.team{
     background-color: #F5F4FA;
 }
