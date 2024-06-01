@@ -1,0 +1,12 @@
+:root{
+    --logo-color: #000;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --added-text: #757575;
+    --main-background: #FFF;
+    --footer-background: #2F303A;
+}
+
+[href="../index.html"]{
+    color: var(--accent-color);
+}
