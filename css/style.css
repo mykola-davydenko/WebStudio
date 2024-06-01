@@ -80,6 +80,11 @@ header{
 }
 
 
-.team{
+.team {
     background-color: #F5F4FA;
+    color: #FFF;
+}
+
+button{
+    color: var(--title-color);
 }
