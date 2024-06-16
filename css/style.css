@@ -22,7 +22,7 @@ letter-spacing: 0.78px;
 line-height: 1.38;
 }
 
-.header-logo{
+.header-brand{
 color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
@@ -170,7 +170,7 @@ line-height: 1.1875;
 background: var(--footer-background);
 }
 
-.brand-color{
+.logo-color{
 color: var(--accent-color);
 font-family: Raleway;
 font-size: 26px;
@@ -180,7 +180,7 @@ line-height: 1.38;
 }
     
 .header-logo{
-color: var(--main-background);
+color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
