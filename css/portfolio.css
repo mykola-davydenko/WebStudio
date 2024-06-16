@@ -73,7 +73,7 @@ letter-spacing: 1.14;
 background-color: var(--main-background);
 }
 
-.button-btn{
+.button-bttn{
 color: var(--title-color);
 text-align: center;
 font-family: Roboto;
@@ -85,8 +85,8 @@ letter-spacing: 0.48px;
 background-color: var(--button-background) ;
 }
 
-.button-btn:hover,
-.button-btn:focus{
+.button-bttn:hover,
+.button-bttn:focus{
 color: var(--main-background);
 text-align: center;
 font-family: Roboto;
