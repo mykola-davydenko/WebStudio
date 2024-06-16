@@ -4,91 +4,208 @@
     --title-color: #212121;
     --added-text: #757575;
     --main-background: #FFF;
-    --team-background: #F5F4FA;
     --footer-background: #2F303A;
+    --footer-number: rgba(255,255, 255, 0.60);
+    --team-background: #F5F4FA;
 }
 
-
-
-h2{
-    color: var(--title-color)
-
+.header{
+background-color: var(--main-background);
 }
 
-
-h1{
-    color: var(--main-background)
+.logo-color{
+color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
 }
 
-
-p{
-    color: var(--added-text);
+.header-logo{
+color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
 }
 
-
-h3{
-    color: var(--title-color);
+.nav-link{
+color: var(--title-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
 }
 
-
-a[href="./index.html"]{
-    color: var(--accent-color);
+.nav-link:hover,
+.nav-link:focus{
+color: var(--accent-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 1.14;
 }
 
-
-[type="button"]{
-    color: var(--main-background);
-    background-color: var(--accent-color);
+.header-link{
+color: var(--added-text);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 1.14;
 }
 
-
-[href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265802,30.5280861,15z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu"]{
-    color: var(--main-background);
+.header-link:hover,
+.header-link:focus{
+color: var(--accent-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 1.14;
 }
 
-header>ul>li>a[href="mailto:info@devstudio.com"]{
-    color: var(--accent-color);
+.main-hero{
+background-color: var(--footer-background);
 }
 
-
-footer>address>ul{
-    color: var(--main-background);
+.hero-title{
+color: var(--main-background);
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
-
-footer{
-    background-color: #2F303A;
+.hero-btn{
+color: var(--main-background);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.875; /* 187.5% */
+letter-spacing: 0.96px;
+background-color: var(--accent-color);
 }
 
-
-header{
-    background-color: #FFF;
+.main-advantages{
+background-color: var(--main-background);
 }
 
-
-.hero{
-    background-color: #2F303A;
+.advantages-title{
+color: var(--title-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+line-height: 1.14;
 }
 
-
-.advantages{
-    background-color: #FFF;
+.advantages-text{
+color: var(--added-text);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
 }
 
-.work{
-    background-color: #FFF;
+.main-work{
+background-color: var(--main-background);
 }
 
-
-.team {
-    background-color: #F5F4FA;
-    color: #FFF;
+.work-title{
+color: var(--title-color);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.08px;
+line-height: 1.17;
 }
 
-button{
-    color: var(--title-color);
+.main-team{
+background: var(--team-background);    
 }
 
-address>ul>li>a{
-    color: var(--main-background);
+.team-title{
+color: var(--title-color);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.08px;
+line-height: 1.17;    
+}
+
+.team-caption{
+color: var(--title-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0.48px; 
+line-height: 1.1875;  
+}
+
+.team-text{
+color: var(--added-text);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.48px;  
+line-height: 1.1875; 
+}
+
+.footer-description{
+background: var(--footer-background);
+}
+
+.logo-color{
+color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
+}
+    
+.header-logo{
+color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
+}
+
+.description-street{
+color: var(--main-background);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+line-height: 1.71;
+}
+
+.description-link{
+color: var(--footer-number);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px; 
+line-height: 1.71;  
 }
