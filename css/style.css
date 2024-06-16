@@ -194,7 +194,6 @@ font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 line-height: 1.71;
 }
@@ -205,7 +204,6 @@ font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px; 
 line-height: 1.71;  
 }
