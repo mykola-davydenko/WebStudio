@@ -180,7 +180,7 @@ line-height: 1.38;
 }
     
 .header-logo{
-color: var(--logo-color);
+color: var(--main-background);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
