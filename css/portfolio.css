@@ -9,8 +9,17 @@
     --button-background: #F5F4FA;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px ;
+    outline: 1px solid green;
+}
+
 .header{
     background-color: var(--main-background);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
     
 .logo-color{
@@ -71,6 +80,8 @@ letter-spacing: 1.14;
 
 .main-button{
 background-color: var(--main-background);
+padding-top: 94px;
+padding-bottom: 50px;
 }
 
 .button-bttn{
@@ -98,6 +109,8 @@ background-color: var(--accent-color);
 
 .main-presentation{
 background-color: var(--main-background);
+padding-top: 50px;
+padding-bottom: 94px;
 }
 
 .presentation-title{
@@ -121,6 +134,8 @@ letter-spacing: 0.48px;
 
 .footer-description{
 background: var(--footer-background);
+padding-top: 60px;
+padding-bottom: 60px;
 }
         
 .logo-color{

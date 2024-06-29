@@ -9,8 +9,17 @@
     --team-background: #F5F4FA;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px ;
+    outline: 1px solid green;
+}
+
 .header{
 background-color: var(--main-background);
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .logo-color{
@@ -71,6 +80,8 @@ letter-spacing: 1.14;
 
 .main-hero{
 background-color: var(--footer-background);
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-title{
@@ -97,6 +108,7 @@ background-color: var(--accent-color);
 
 .main-advantages{
 background-color: var(--main-background);
+padding-top: 94px;
 }
 
 .advantages-title{
@@ -120,6 +132,8 @@ letter-spacing: 0.42px;
 
 .main-work{
 background-color: var(--main-background);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .work-title{
@@ -134,6 +148,8 @@ line-height: 1.17;
 
 .main-team{
 background: var(--team-background);    
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .team-title{
@@ -168,6 +184,8 @@ line-height: 1.1875;
 
 .footer-description{
 background: var(--footer-background);
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .logo-color{
@@ -207,3 +225,4 @@ font-weight: 400;
 letter-spacing: 0.42px; 
 line-height: 1.71;  
 }
+
