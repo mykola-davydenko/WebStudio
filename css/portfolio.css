@@ -81,7 +81,7 @@ letter-spacing: 1.14;
 .main-button{
 background-color: var(--main-background);
 padding-top: 94px;
-padding-bottom: 50px;
+padding-bottom: 94px;
 }
 
 .button-bttn{
@@ -105,12 +105,6 @@ font-weight: 500;
 line-height: 1.625; /* 162.5% */
 letter-spacing: 0.48px;
 background-color: var(--accent-color); 
-}
-
-.main-presentation{
-background-color: var(--main-background);
-padding-top: 50px;
-padding-bottom: 94px;
 }
 
 .presentation-title{
