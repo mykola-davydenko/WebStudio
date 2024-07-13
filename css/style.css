@@ -115,6 +115,9 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 text-align: center;
 margin-bottom: 30px;
+width: 696px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .hero-btn{
@@ -186,10 +189,10 @@ margin-top: 50px;
 justify-content: center;
 }
 
-.main-img{
+.work-img{
 width: 370px;
-height: 294px;   
-}
+height: 294px;
+    }
 
 .main-team{
 background: var(--team-background);    
@@ -218,6 +221,13 @@ width: 270px;
 height: 260px;
 }
 
+.team-caption-background{
+background: var(--main-background);
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 .team-caption{
 color: var(--title-color);
 text-align: center;
@@ -226,7 +236,6 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px; 
 line-height: 1.1875;  
-margin-top: 30px;
 }
 
 .team-text{
