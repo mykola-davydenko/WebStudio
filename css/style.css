@@ -12,8 +12,7 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px ;
-    outline: 1px solid green;
+    padding: 0 15px;
 }
 
 .header{
@@ -21,6 +20,21 @@ background-color: var(--main-background);
 padding-top: 24px;
 padding-bottom: 25px;
 }
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-brand{
+color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
+margin-right: 93px;
+}    
 
 .logo-color{
 color: var(--accent-color);
@@ -31,13 +45,9 @@ letter-spacing: 0.78px;
 line-height: 1.38;
 }
 
-.header-brand{
-color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
-line-height: 1.38;
+.nav-list{
+    display: flex;
+    gap: 50px;
 }
 
 .nav-link{
@@ -47,6 +57,15 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+}
+
+.header-nav{
+    margin-right: auto;
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
 }
 
 .nav-link:hover,
@@ -82,6 +101,7 @@ letter-spacing: 1.14;
 background-color: var(--footer-background);
 padding-top: 200px;
 padding-bottom: 200px;
+text-align: center;
 }
 
 .hero-title{
@@ -93,22 +113,33 @@ font-weight: 900;
 line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
 }
 
 .hero-btn{
 color: var(--main-background);
-text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 1.875; /* 187.5% */
 letter-spacing: 0.96px;
 background-color: var(--accent-color);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 32px;
+padding-left: 32px;
 }
 
 .main-advantages{
 background-color: var(--main-background);
 padding-top: 94px;
+}
+
+.advantages-list{
+display: flex;
+justify-content: center;
+gap: 30px;
 }
 
 .advantages-title{
@@ -119,6 +150,7 @@ font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 line-height: 1.14;
+margin-bottom: 10px;
 }
 
 .advantages-text{
@@ -128,6 +160,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+width: 270px;
 }
 
 .main-work{
@@ -138,12 +171,24 @@ padding-bottom: 94px;
 
 .work-title{
 color: var(--title-color);
-text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
 line-height: 1.17;
+text-align: center;
+}
+
+.work-list{
+display: flex;
+gap: 30px;
+margin-top: 50px;
+justify-content: center;
+}
+
+.main-img{
+width: 370px;
+height: 294px;   
 }
 
 .main-team{
@@ -159,7 +204,18 @@ font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
-line-height: 1.17;    
+line-height: 1.17;
+margin-bottom: 50px;    
+}
+
+.team-list{
+display: flex;
+gap: 30px;
+}
+
+.main-img{
+width: 270px;
+height: 260px;
 }
 
 .team-caption{
@@ -174,12 +230,13 @@ line-height: 1.1875;
 
 .team-text{
 color: var(--added-text);
-text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.48px;  
 line-height: 1.1875; 
+margin-top: 10px;
+text-align: center;
 }
 
 .footer-description{
@@ -206,6 +263,10 @@ letter-spacing: 0.78px;
 line-height: 1.38;
 }
 
+.description-address{
+    margin-top: 20px;
+}
+
 .description-street{
 color: var(--main-background);
 font-family: Roboto;
@@ -214,6 +275,14 @@ font-style: normal;
 font-weight: 400;
 letter-spacing: 0.42px;
 line-height: 1.71;
+}
+
+.description-list{
+    margin-top: 9px;
+}
+
+.description-item{
+    margin-top: 9px;
 }
 
 .description-link{
