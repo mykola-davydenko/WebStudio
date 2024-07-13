@@ -13,70 +13,89 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px ;
-    outline: 1px solid green;
 }
 
 .header{
     background-color: var(--main-background);
     padding-top: 24px;
     padding-bottom: 25px;
-}
+    }
     
-.logo-color{
-color: var(--accent-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
-line-height: 1.38;
-}
+    .header-box{
+        display: flex;
+        align-items: center;
+    }
     
-.header-brand{
-color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
-line-height: 1.38;
-}
+    .header-brand{
+    color: var(--logo-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    margin-right: 93px;
+    }    
     
-.nav-link{
-color: var(--title-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
-}
+    .logo-color{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    }
     
-.nav-link:hover,
-.nav-link:focus{
-color: var(--accent-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 1.14;
-}
+    .nav-list{
+        display: flex;
+        gap: 50px;
+    }
     
-.header-link{
-color: var(--added-text);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 1.14;
-}
+    .nav-link{
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    }
     
-.header-link:hover,
-.header-link:focus{
-color: var(--accent-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 1.14;
-}
+    .header-nav{
+        margin-right: auto;
+    }
+    
+    .header-list{
+        display: flex;
+        gap: 50px;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus{
+    color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1.14;
+    }
+    
+    .header-link{
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1.14;
+    }
+    
+    .header-link:hover,
+    .header-link:focus{
+    color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1.14;
+    }
 
 .main-button{
 background-color: var(--main-background);
@@ -127,47 +146,59 @@ letter-spacing: 0.48px;
 
 
 .footer-description{
-background: var(--footer-background);
-padding-top: 60px;
-padding-bottom: 60px;
-}
+    background: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    .logo-color{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    }
         
-.logo-color{
-color: var(--accent-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: 0.78px;
-line-height: 1.38;
-}
-            
-.header-logo{
-color: var(--main-background);
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.78px;
-line-height: 1.38;
-}
-        
-.description-street{
-color: var(--main-background);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: 0.42px;
-line-height: 1.71;
-}
-        
-.description-link{
-color: var(--footer-number);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0.42px; 
-line-height: 1.71;  
-}
+    .header-logo{
+    color: var(--main-background);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    }
+    
+    .description-address{
+        margin-top: 20px;
+    }
+    
+    .description-street{
+    color: var(--main-background);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    line-height: 1.71;
+    }
+    
+    .description-list{
+        margin-top: 9px;
+    }
+    
+    .description-item{
+        margin-top: 9px;
+    }
+    
+    .description-link{
+    color: var(--footer-number);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px; 
+    line-height: 1.71;  
+    }
+    
+    
