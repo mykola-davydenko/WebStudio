@@ -80,6 +80,21 @@
     line-height: 1.14;
     letter-spacing: 1.14;
     }
+
+    .nav-link-2{
+        color: var(--accent-color);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+    }
+
+    .nav-link-2:hover,
+    .nav-link-2:focus{
+    color: var(--accent-color);
+    }
     
     .header-link{
     color: var(--added-text);
@@ -160,12 +175,11 @@ gap: 30px;
 }
 
 .presentation-item{
-flex-basis: calc((100%-60px) / 3);
+flex-basis: calc((100% - 60px) / 3);
 }
 
 .presentation-img{
 width: 100%;
-height: 294px;
 }
 
 .presentation-background{
