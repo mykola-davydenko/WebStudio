@@ -211,7 +211,7 @@ gap: 30px;
     height: 120px;
     border-radius: 4px;
     background: var(--team-background);
-    background-image: url(../img/astronaut.jpg);
+    background-image: url(../img/astronaut.png);
     display: block;
     background-repeat: no-repeat;
     background-position: center;
