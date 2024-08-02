@@ -162,7 +162,7 @@ justify-content: center;
 gap: 30px;
 }
 
-.advantages-item1::before{
+.advantages-item::before{
     content: "";
     margin-bottom: 30px;
     width: 270px;
@@ -176,46 +176,16 @@ gap: 30px;
     background-size: 70px;
 }
 
-.advantages-item2::before{
-    content: "";
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background: var(--team-background);
+.advantages-item:nth-child(2)::before{
     background-image: url(../img/clock.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
 }
 
-.advantages-item3::before{
-    content: "";
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background: var(--team-background);
+.advantages-item:nth-child(3)::before{
     background-image: url(../img/diagram.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
 }
 
-.advantages-item4::before{
-    content: "";
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background: var(--team-background);
+.advantages-item:nth-child(4)::before{
     background-image: url(../img/astronaut.png);
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
 }
 
 .advantages-title{
