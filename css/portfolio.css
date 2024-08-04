@@ -161,6 +161,7 @@ line-height: 1.625; /* 162.5% */
 letter-spacing: 0.48px;
 background-color: var(--accent-color); 
 border-radius: 4px;
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .main-presentation{
@@ -176,6 +177,13 @@ gap: 30px;
 
 .presentation-item{
 flex-basis: calc((100% - 60px) / 3);
+}
+
+.presentation-item:hover,
+.presentation-item:focus{
+    flex-basis: calc((100% - 60px) / 3);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
 }
 
 .presentation-img{

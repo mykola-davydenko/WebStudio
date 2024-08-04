@@ -151,6 +151,24 @@ border: none;
 border-radius: 4px;
 }
 
+.hero-btn:focus,
+.hero-btn:hover{
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: var(--main-background);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.875; /* 187.5% */
+letter-spacing: 0.96px;
+background-color: var(--accent-color);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 32px;
+padding-left: 32px;
+border: none;
+border-radius: 4px;
+}
+
 .main-advantages{
 background-color: var(--main-background);
 padding-top: 94px;
@@ -259,6 +277,11 @@ display: flex;
 gap: 30px;
 }
 
+.team-item:hover,
+.team-item:focus{
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
 .main-img{
 width: 270px;
 height: 260px;
@@ -269,6 +292,7 @@ background: var(--main-background);
 text-align: center;
 padding-top: 30px;
 padding-bottom: 30px;
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-caption{
