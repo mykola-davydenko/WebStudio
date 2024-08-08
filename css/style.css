@@ -116,9 +116,7 @@ letter-spacing: 1.14;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    width: 1600px;
-    height: 600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40)), url(../img/background_working.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/background_working.jpg);
     }
 
 .hero-title{
