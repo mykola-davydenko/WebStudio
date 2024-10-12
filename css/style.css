@@ -93,11 +93,6 @@ letter-spacing: 1.14;
     gap: 50px;
 }
 
-.header-item:focus,
-.header-item:hover{
-color: var(--accent-color);
-}
-
 .header-link{
 color: var(--added-text);
 font-family: Roboto;
@@ -121,6 +116,17 @@ align-items: center;
     height: 16px;
     fill: var(--added-text);
     margin-right: 10px;
+}
+
+.header-item:hover,
+:focus {
+.header-img,
+.header-image{
+fill: var(--accent-color);
+}
+.header-link {
+color: var(--accent-color);
+}
 }
 
 .main-hero{
@@ -221,7 +227,7 @@ letter-spacing: 0.42px;
 width: 270px;
 }
 
-.main-work{
+.work{
 background-color: var(--main-background);
 padding-top: 94px;
 padding-bottom: 94px;
@@ -242,6 +248,26 @@ display: flex;
 gap: 30px;
 margin-top: 50px;
 justify-content: center;
+}
+
+.work-box{
+    position: relative;
+    }
+
+.work-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+    border: none;
+    top: 224px;
 }
 
 .work-img{
@@ -334,9 +360,11 @@ text-align: center;
 }
 
 .team-link:hover,
-.team-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--main-background);
+.team-link:focus{
+background-color: var(--accent-color);
+.team-svg{
+fill: var(--main-background);
+}
 }
 
 .main-clients{
@@ -377,7 +405,9 @@ text-align: center;
 .clients-link:hover,
 .clients-link:focus{
     border-color: var(--accent-color);
+    .clients-svg{
     fill: var(--accent-color);
+    }
 }
 
 .clients-svg {
@@ -488,4 +518,3 @@ line-height: 1.71;
     margin: 12px;
     fill: var(--main-background);
 }
-
