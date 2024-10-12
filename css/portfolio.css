@@ -14,106 +14,116 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px ;
+    padding: 0 15px;
 }
 
 .header{
-    background-color: var(--main-background);
-    padding-top: 24px;
-    padding-bottom: 25px;
-    }
-    
-    .header-box{
+background-color: var(--main-background);
+padding-top: 24px;
+padding-bottom: 25px;
+}
+
+.header-box{
     display: flex;
-    justify-content: center;
     align-items: center;
-    }
-    
-    .header-brand{
-    color: var(--logo-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    line-height: 1.38;
-    margin-right: 93px;
-    }    
-    
-    .logo-color{
+}
+
+.header-brand{
+color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
+margin-right: 93px;
+}    
+
+.logo-color{
+color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+line-height: 1.38;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link{
+color: var(--title-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.header-nav{
+    margin-right: auto;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+color: var(--accent-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 1.14;
+}
+
+.nav-link-1{
     color: var(--accent-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    line-height: 1.38;
-    }
-    
-    .nav-list{
-        display: flex;
-        gap: 50px;
-    }
-    
-    .nav-link{
-    color: var(--title-color);
     font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.14;
+    line-height: normal;
     letter-spacing: 0.28px;
-    }
-    
-    .header-nav{
-        margin-right: auto;
-    }
-    
-    .header-list{
-        display: flex;
-        gap: 50px;
-    }
-    
-    .nav-link:hover,
-    .nav-link:focus{
-    color: var(--accent-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 1.14;
-    }
+}
 
-    .nav-link-2{
-        color: var(--accent-color);
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.28px;
-    }
+.nav-link-1:hover,
+.nav-link-1:focus{
+    color: var(--accent-color);
+}
 
-    .nav-link-2:hover,
-    .nav-link-2:focus{
-    color: var(--accent-color);
-    }
-    
-    .header-link{
-    color: var(--added-text);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 1.14;
-    }
-    
-    .header-link:hover,
-    .header-link:focus{
-    color: var(--accent-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 1.14;
-    }
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+
+.header-item:focus,
+.header-item:hover{
+color: var(--accent-color);
+}
+
+.header-link{
+color: var(--added-text);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 1.14;
+display: flex;
+align-items: center;
+}
+
+.header-img{
+    width: 16px;
+    height: 12px;
+    fill: var(--added-text);
+    margin-right: 10px;
+}
+
+.header-image{
+    width: 10px;
+    height: 16px;
+    fill: var(--added-text);
+    margin-right: 10px;
+}
 
 .line{
 background: var(--line-color);
