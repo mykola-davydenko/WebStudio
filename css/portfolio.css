@@ -236,6 +236,10 @@ letter-spacing: 0.48px;
     padding-bottom: 60px;
     }
     
+    .footer-box{
+    display: flex;
+    }
+    
     .logo-color{
     color: var(--accent-color);
     font-family: Raleway;

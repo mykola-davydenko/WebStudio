@@ -124,7 +124,7 @@ align-items: center;
 .header-image{
 fill: var(--accent-color);
 }
-.header-link {
+.header-link{
 color: var(--accent-color);
 }
 }
@@ -420,6 +420,10 @@ fill: var(--main-background);
 background: var(--footer-background);
 padding-top: 60px;
 padding-bottom: 60px;
+}
+
+.footer-box{
+display: flex;
 }
 
 .logo-color{
