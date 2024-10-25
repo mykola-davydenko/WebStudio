@@ -289,11 +289,11 @@ letter-spacing: 0.48px;
     letter-spacing: 0.42px; 
     line-height: 1.71;  
     }
-    
-    .social-section{
-            display: flex;
-            gap: 70px;
-            align-items: baseline;
+
+    .social-div{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
     
     .social-text {
@@ -307,13 +307,13 @@ letter-spacing: 0.48px;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-    
-    .social-div{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+
+    .social-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     }
-    
+
     .social-link {
         width: 50px;
         height: 50px;
@@ -337,3 +337,70 @@ letter-spacing: 0.48px;
         fill: var(--main-background);
     }
     
+
+
+
+
+    .form-text{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    .form-lable{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.48px;
+        width: 358px;
+        height: 50px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: rgba(33, 150, 243, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        padding-left: 16px;
+    }
+    
+    .form-btn {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 187%;
+        letter-spacing: 0.96px;
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 200px;
+        height: 50px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .form-svg {
+        width: 24px;
+        height: 24px;
+        fill: #FFF;
+    }
