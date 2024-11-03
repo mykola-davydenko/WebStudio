@@ -310,6 +310,7 @@ letter-spacing: 0.48px;
     
     .footer-box{
     display: flex;
+    align-items: baseline;
     }
     
     .logo-color{
@@ -361,11 +362,11 @@ letter-spacing: 0.48px;
     letter-spacing: 0.42px; 
     line-height: 1.71;  
     }
-
-    .social-div{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+    
+    .social-section{
+            display: flex;
+            gap: 70px;
+            align-items: baseline;
     }
     
     .social-text {
@@ -379,13 +380,17 @@ letter-spacing: 0.48px;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-
+    
+    .social-div{
+    margin-left: 70px;
+    margin-right: auto;
+    }
+    
     .social-list{
     display: flex;
-    flex-direction: row;
     gap: 10px;
     }
-
+    
     .social-link {
         width: 50px;
         height: 50px;
@@ -408,6 +413,7 @@ letter-spacing: 0.48px;
         margin: 12px;
         fill: var(--main-background);
     }
+    
     
 
 
