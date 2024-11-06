@@ -8,11 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="./css/reset.css">    
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header class="header">
+<header data-aos="fade-up"
+data-aos-duration="3000" class="header">
     <div class="container header-box">
     <a href="./index.html" class="header-brand"><span class="logo-color">Web</span>Studio</a>
     <nav class="header-nav">
@@ -48,7 +54,7 @@
     <!-- section hero -->
     <section class="main-hero">
         <div class="container">
-    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+    <h1 class="hero-title animate__animated animate__rubberBand">Ефективні рішення для вашого бізнесу</h1>
     <button data-modal-open type="button" class="hero-btn">Замовити послугу</button>
 </div>
     </section>
@@ -418,5 +424,9 @@
     </div>
 </div>
 <script src="./js/modal.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
