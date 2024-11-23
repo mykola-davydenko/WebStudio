@@ -1,0 +1,91 @@
+.main-team{
+    background: var(--team-background);    
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+    
+    .team-title{
+    color: var(--title-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    line-height: 1.17;
+    margin-bottom: 50px;    
+    }
+    
+    .team-list{
+    display: flex;
+    gap: 30px;
+    }
+    
+    .main-img{
+    width: 270px;
+    height: 260px;
+    }
+    
+    .team-item{
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+        border-radius: 0px 0px 4px 4px;
+    }
+    
+    .team-caption-background{
+    background: var(--main-background);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    }
+    
+    .team-caption{
+    color: var(--title-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px; 
+    line-height: 1.1875;  
+    }
+    
+    .team-text{
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;  
+    line-height: 1.1875; 
+    margin-top: 10px;
+    text-align: center;
+    }
+    
+    .team-ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 16px;
+    }
+    
+    .team-svg {
+        width: 20px;
+        height: 20px;
+        fill: #AFB1B8;
+    }
+    
+    .team-link{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-link:hover,
+    .team-link:focus{
+    background-color: var(--accent-color);
+    .team-svg{
+    fill: var(--main-background);
+    }
+    }

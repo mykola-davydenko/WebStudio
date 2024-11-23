@@ -1,0 +1,170 @@
+.footer-description{
+    background: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    .footer-box{
+    display: flex;
+    align-items: baseline;
+    }
+    
+    .logo-color{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    }
+        
+    .header-logo{
+    color: var(--main-background);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
+    }
+    
+    .description-address{
+        margin-top: 20px;
+    }
+    
+    .description-street{
+    color: var(--main-background);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    line-height: 1.71;
+    }
+    
+    .description-list{
+        margin-top: 9px;
+    }
+    
+    .description-item{
+        margin-top: 9px;
+    }
+    
+    .description-link{
+    color: var(--footer-number);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px; 
+    line-height: 1.71;  
+    }
+    
+    .social-text {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    .social-div{
+    margin-left: 70px;
+    margin-right: auto;
+    }
+    
+    .social-list{
+    display: flex;
+    gap: 10px;
+    }
+    
+    .social-link {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #4a4a52;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-link:hover,
+    .social-link:focus {
+        background-color: var(--accent-color);
+    }
+    
+    .social-svg{
+        width: 20px;
+        height: 20px;
+        margin-top: 32px;
+        margin: 12px;
+        fill: var(--main-background);
+    }
+    
+    .form-text{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+    
+    .form-lable{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.48px;
+        width: 358px;
+        height: 50px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: rgba(33, 150, 243, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        padding-left: 16px;
+    }
+    
+    .form-btn {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 187%;
+        letter-spacing: 0.96px;
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 200px;
+        height: 50px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .form-svg {
+        width: 24px;
+        height: 24px;
+        fill: #FFF;
+    }
+    
+    

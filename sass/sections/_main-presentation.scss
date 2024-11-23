@@ -1,0 +1,85 @@
+.main-presentation{
+    padding-bottom: 94px;
+    display: flex;
+    }
+    
+    .presentation-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    
+    .presentation-item{
+    flex-basis: calc((100% - 60px) / 3);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    
+    .presentation-item:hover,
+    .presentation-item:focus{
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    .presentation-p{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .presentation-box {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .presentation-img{
+    width: 100%;
+    }
+    
+    .presentation-p {
+        position: absolute;
+        width: 370px;
+        height: 294px;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        padding: 63px 24px 63px 24px;
+        background-color: rgba(33, 150, 243, 0.9);
+        color: var(--main-background);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.55;
+        letter-spacing: 0.54px;
+        transform: translateY(100%);
+        transition-property: opacity, transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .presentation-background{
+    border: 1px solid var(--border-background);
+    padding: 24px 20px;
+    }
+    
+    .presentation-title{
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; /* 200% */
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+    }
+    
+    .presentation-text{
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875; /* 187.5% */
+    letter-spacing: 0.48px;
+    }
+    

@@ -1,0 +1,43 @@
+.main-button{
+    background-color: var(--main-background);
+    padding-top: 94px;
+    padding-bottom: 50px;
+    border-top: 1px solid #ECECEC;
+    }
+    
+    .button-list{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    }
+    
+    .button-bttn{
+    color: var(--title-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+    letter-spacing: 0.48px;
+    background-color: var(--button-background);
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border: none;
+    }
+    
+    .button-bttn:hover,
+    .button-bttn:focus{
+    color: var(--main-background);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+    letter-spacing: 0.48px;
+    background-color: var(--accent-color); 
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    }
