@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -17,4 +18,7 @@
     ],
     "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.autoprefix": ["defaults"]
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> d8c0890e4b243ec2b52d903c16376a16924e37ab
 }
