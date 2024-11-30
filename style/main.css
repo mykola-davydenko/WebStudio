@@ -77,9 +77,13 @@ img {
   letter-spacing: 1.14;
   display: flex;
   align-items: center;
+  transition-property: color, fill;
+  transition-duration: 250ms;
 }
 .header__link:hover, .header__link:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 .header__link:hover .header__img, .header__link:focus .header__img {
   fill: var(--accent-color);
@@ -121,6 +125,8 @@ img {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-property: color;
+  transition-duration: 250ms;
 }
 .nav__link-1::after {
   content: "";
@@ -135,6 +141,8 @@ img {
 }
 .nav__link-1:hover, .nav__link-1:focus {
   color: var(--accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 .nav__link {
   color: var(--title-color);
@@ -143,9 +151,13 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  transition-property: color;
+  transition-duration: 250ms;
 }
 .nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
+  transition-property: color, fill;
+  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav__link::after {
   content: "";
@@ -160,10 +172,14 @@ img {
   opacity: 0;
   transform: scale(0);
   transition: transform 1s;
+  transition-property: color;
+  transition-duration: 250ms;
 }
 .nav__link:hover::after, .nav__link:focus::after {
   opacity: 1;
   transform: scale(1);
+  transition-property: color, fill;
+  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-hero {
@@ -443,6 +459,8 @@ img {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
+  transition-property: border-color, fill;
+  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover .clients-svg,
 .clients-link:focus .clients-svg {
@@ -551,6 +569,7 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-svg {
@@ -695,6 +714,8 @@ img {
 .modal-input:hover {
   border: 1px solid #2196F3;
   outline: none;
+  transition-property: border, outline;
+  transition-duration: 250ms;
 }
 
 .modal-input:hover + .modal-svg,
@@ -727,6 +748,8 @@ img {
   padding: 12px 16px;
   margin: 4px 0 25px 0;
   display: block;
+  transition-property: border, outline;
+  transition-duration: 250ms;
 }
 
 .modal-comment:focus,
@@ -785,6 +808,8 @@ img {
   margin-right: 120px;
   margin-top: 30px;
   margin-bottom: 20px;
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .modal-btn:hover,
@@ -804,6 +829,8 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .modal-exit {
@@ -845,6 +872,8 @@ img {
   padding-right: 22px;
   padding-left: 22px;
   border: none;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
 }
 
 .button-bttn:hover,
@@ -877,6 +906,8 @@ img {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow, opacity;
+  transition-duration: 250ms;
 }
 
 .presentation-item:hover,

@@ -26,6 +26,8 @@
     padding-right: 22px;
     padding-left: 22px;
     border: none;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
     }
     
     .button-bttn:hover,
