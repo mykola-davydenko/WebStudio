@@ -31,6 +31,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -47,4 +49,7 @@
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
